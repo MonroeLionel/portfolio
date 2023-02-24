@@ -1,0 +1,48 @@
+.workImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #d342a5;
+    min-width: 250px;
+    min-height: 250px;
+    background-image: url("https://img1.akspic.ru/crops/8/0/1/5/4/145108/145108-igra_v_kosti-chernyy-nastolnaya_igra-igri-igry_v_pomeshhenii_i_sporta-720x1280.jpg");
+    background-size:cover ;
+    background-position:center     ;
+}
+
+.work {
+    width: 250px;
+    background-color: #ecddcb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.href:link ,href:visited {
+    background-color: #a1e9ff;
+    color: #8c36b4;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.href:hover , href:active{
+    color: #a1e9ff;
+    background-color: #0bb8f6;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #8c36b4;
+    text-align: left;
+    /*justify-content: left;/*/
+    padding: 20px;
+}
+.text{
+    margin-inline-start: 10px;
+    background-color: #0bb8f6;
+}

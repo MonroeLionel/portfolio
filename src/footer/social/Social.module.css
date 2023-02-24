@@ -1,0 +1,8 @@
+.blockMessenger {
+    background-color: #333;
+    border: 1px solid #423;
+    border-radius: 50%;
+    height: 60px;
+    transition: .7s;
+    width: 60px;
+}

@@ -1,0 +1,48 @@
+.workImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #d342a5;
+    min-width: 250px;
+    min-height: 250px;
+}
+
+.work {
+    width: 250px;
+    background-color: #ecddcb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.href:link ,href:visited {
+    background-color: #a1e9ff;
+    color: #8c36b4;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.href:hover , href:active{
+    color: #a1e9ff;
+    background-color: #0bb8f6;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #8c36b4;
+    text-align: left;
+    min-height: 200px;
+
+    max-height: 500px;
+    /*justify-content: left;/*/
+}
+.text{
+    margin-inline-start: 10px;
+    background-color: #0bb8f6;
+
+}

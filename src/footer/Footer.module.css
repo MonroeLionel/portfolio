@@ -1,0 +1,39 @@
+.Footer_mainBlock {
+
+    background-color: #f6fbff;
+    display: flex;
+    height: 220px;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.Footer_contentBlock {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+.Footer_myName {
+    color: #333;
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.Footer_textRights {
+    color: #333;
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.Footer_block {
+    align-items: center;
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+    width: 320px;
+}

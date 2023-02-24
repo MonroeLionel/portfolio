@@ -1,0 +1,82 @@
+.Contacts_mainBlock {
+    align-items: center;
+    background-color: #f4f5f7;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.Contacts_content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+
+}
+
+.HeaderTitle_title {
+    clear: both;
+    float: left;
+    height: auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+
+.Contacts_formContacts {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    width: 70%;
+
+}
+
+.Contacts_errorText {
+    color: red;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.Contacts_buttonSubmit {
+    align-self: center;
+    background-color: #333;
+    border: 1px solid #4a4a4a;
+    color: #f6fbff;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin-top: 30px;
+    padding: 15px;
+    transition: .7s;
+}
+
+input {
+    background-color: #333;
+    border: 1px solid #4a4a4a;
+    color: #f6fbff;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-top: 0.5rem;
+    padding: 7px;
+    transition: .7s;
+}
+
+textarea {
+    background-color: #333;
+    border: 1px solid #4a4a4a;
+    color: #f6fbff;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    height: 120px;
+    line-height: 1.5em;
+    margin-top: 0.5rem;
+    padding: 5px;
+    resize: none;
+    transition: .7s;
+}

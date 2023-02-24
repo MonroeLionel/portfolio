@@ -1,0 +1,20 @@
+.MyWorks{
+    min-height: 100vh;
+    background-color: #9bcbc5;
+}
+.work{
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.title{
+    background-color: #ecddcb;
+}
+.worksContainet{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
